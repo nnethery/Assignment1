@@ -1,1 +1,29 @@
+a) Noah:Assignment1 Noah$ git add docs/status.txt 
+Noah:Assignment1 Noah$ git commit -m "Added git status"
+[master 968f4bd] Added git status
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+Noah:Assignment1 Noah$ git push
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 397 bytes | 397.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/nnethery/Assignment1.git
+   8c0f779..968f4bd  master -> master
 
+b) 8 commits. I used 'git log'
+
+c) Last modified on Wed Sep 27, at 4:31 PM. I used 'git log .gitignore'
+
+d) 1cc7d6674cce7e5339598e87e07e329c45814408
+
+e) Branches can help preserve a current working copy of the program while you can add new features to it without destroying the stable build. It is also useful for multiple people working on a program who are working on seperate features and can merge their code together easier down the road.
+
+f) git log lists all of the commits done in the repo. git status just shows the status of the current local copy to see what has been modified if if it is ready to be committed or not yet added to be tracked. 
+
+g) git log Weapon.h
+
+h) git log --grep="file"
+
+i) Inheritance is the concept that when sub class are built on top of base classes, they inherit the properties and methods of the class before it. Polymorphism is structuring the methods in a base class (or other super class) that will work the same way, no matter what sub class calls the method. An example of this is a bass class of 'Shape' that contains an area() method. When sub classes 'Triangle' and 'Square' call it, it will account for the requirements of finding area for each shape and produce the correct answer. Encapsulation is essentially 'data hiding.' This can mean assigning methods and properties as public vs. private, or not allowing another program that uses the class to access the data itself by using functions that access or mutate the data for the program.
